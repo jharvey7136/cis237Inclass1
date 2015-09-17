@@ -28,10 +28,17 @@ namespace cis237Inclass1
             this.age = age;
         }
 
+        //public method
         public void PrintFullName()
         {
             Console.WriteLine(this.firstName + ' ' + this.lastName);            
         }
+
+        public override string ToString()
+        {
+            return this.firstName + ' ' + this.lastName;
+        }
+
 
         //first name property
         public string FirstName
